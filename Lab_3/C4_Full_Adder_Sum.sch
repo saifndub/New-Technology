@@ -1,5 +1,5 @@
 DSCH3
-VERSION 25/10/2020 12:13:19 AM
+VERSION 20-Nov-26 8:18:08 PM
 BB(81,-49,479,125)
 SYM  #nmos
 BB(435,65,455,85)
@@ -18,7 +18,7 @@ LIG(455,69,447,69)
 LIG(455,65,455,69)
 LIG(455,81,447,81)
 LIG(455,85,455,81)
-VLG    nmos nmos(drain,source,gate);
+VLG     nmos nmos(drain,source,gate);
 FSYM
 SYM  #pmos
 BB(435,45,455,65)
@@ -38,7 +38,7 @@ LIG(455,49,447,49)
 LIG(455,45,455,49)
 LIG(455,61,447,61)
 LIG(455,65,455,61)
-VLG    pmos pmos(drain,source,gate);
+VLG     pmos pmos(drain,source,gate);
 FSYM
 SYM  #vdd
 BB(320,5,330,15)
@@ -105,7 +105,7 @@ LIG(325,19,317,19)
 LIG(325,15,325,19)
 LIG(325,31,317,31)
 LIG(325,35,325,31)
-VLG    pmos pmos(drain,source,gate);
+VLG     pmos pmos(drain,source,gate);
 FSYM
 SYM  #nmos
 BB(305,35,325,55)
@@ -124,7 +124,7 @@ LIG(325,39,317,39)
 LIG(325,35,325,39)
 LIG(325,51,317,51)
 LIG(325,55,325,51)
-VLG    nmos nmos(drain,source,gate);
+VLG     nmos nmos(drain,source,gate);
 FSYM
 SYM  #vdd
 BB(450,35,460,45)
@@ -187,7 +187,7 @@ LIG(420,99,412,99)
 LIG(420,95,420,99)
 LIG(420,111,412,111)
 LIG(420,115,420,111)
-VLG    nmos nmos(drain,source,gate);
+VLG     nmos nmos(drain,source,gate);
 FSYM
 SYM  #nmos
 BB(400,75,420,95)
@@ -206,7 +206,7 @@ LIG(420,79,412,79)
 LIG(420,75,420,79)
 LIG(420,91,412,91)
 LIG(420,95,420,91)
-VLG    nmos nmos(drain,source,gate);
+VLG     nmos nmos(drain,source,gate);
 FSYM
 SYM  #nmos
 BB(365,95,385,115)
@@ -225,7 +225,7 @@ LIG(385,99,377,99)
 LIG(385,95,385,99)
 LIG(385,111,377,111)
 LIG(385,115,385,111)
-VLG    nmos nmos(drain,source,gate);
+VLG     nmos nmos(drain,source,gate);
 FSYM
 SYM  #nmos
 BB(365,75,385,95)
@@ -244,7 +244,7 @@ LIG(385,79,377,79)
 LIG(385,75,385,79)
 LIG(385,91,377,91)
 LIG(385,95,385,91)
-VLG    nmos nmos(drain,source,gate);
+VLG     nmos nmos(drain,source,gate);
 FSYM
 SYM  #vdd
 BB(415,25,425,35)
@@ -278,7 +278,7 @@ LIG(420,59,412,59)
 LIG(420,55,420,59)
 LIG(420,71,412,71)
 LIG(420,75,420,71)
-VLG    pmos pmos(drain,source,gate);
+VLG     pmos pmos(drain,source,gate);
 FSYM
 SYM  #pmos
 BB(185,5,205,25)
@@ -298,7 +298,7 @@ LIG(205,9,197,9)
 LIG(205,5,205,9)
 LIG(205,21,197,21)
 LIG(205,25,205,21)
-VLG    pmos pmos(drain,source,gate);
+VLG     pmos pmos(drain,source,gate);
 FSYM
 SYM  #pmos
 BB(220,25,240,45)
@@ -318,7 +318,7 @@ LIG(240,29,232,29)
 LIG(240,25,240,29)
 LIG(240,41,232,41)
 LIG(240,45,240,41)
-VLG    pmos pmos(drain,source,gate);
+VLG     pmos pmos(drain,source,gate);
 FSYM
 SYM  #pmos
 BB(185,25,205,45)
@@ -338,7 +338,7 @@ LIG(205,29,197,29)
 LIG(205,25,205,29)
 LIG(205,41,197,41)
 LIG(205,45,205,41)
-VLG    pmos pmos(drain,source,gate);
+VLG     pmos pmos(drain,source,gate);
 FSYM
 SYM  #pmos
 BB(220,5,240,25)
@@ -358,7 +358,7 @@ LIG(240,9,232,9)
 LIG(240,5,240,9)
 LIG(240,21,232,21)
 LIG(240,25,240,21)
-VLG    pmos pmos(drain,source,gate);
+VLG     pmos pmos(drain,source,gate);
 FSYM
 SYM  #pmos
 BB(365,55,385,75)
@@ -378,7 +378,7 @@ LIG(385,59,377,59)
 LIG(385,55,385,59)
 LIG(385,71,377,71)
 LIG(385,75,385,71)
-VLG    pmos pmos(drain,source,gate);
+VLG     pmos pmos(drain,source,gate);
 FSYM
 SYM  #pmos
 BB(365,35,385,55)
@@ -398,7 +398,7 @@ LIG(385,39,377,39)
 LIG(385,35,385,39)
 LIG(385,51,377,51)
 LIG(385,55,385,51)
-VLG    pmos pmos(drain,source,gate);
+VLG     pmos pmos(drain,source,gate);
 FSYM
 SYM  #vdd
 BB(235,-5,245,5)
@@ -432,7 +432,7 @@ LIG(420,39,412,39)
 LIG(420,35,420,39)
 LIG(420,51,412,51)
 LIG(420,55,420,51)
-VLG    pmos pmos(drain,source,gate);
+VLG     pmos pmos(drain,source,gate);
 FSYM
 SYM  #light
 BB(473,50,479,64)
@@ -474,7 +474,7 @@ LIG(275,39,267,39)
 LIG(275,35,275,39)
 LIG(275,51,267,51)
 LIG(275,55,275,51)
-VLG    nmos nmos(drain,source,gate);
+VLG     nmos nmos(drain,source,gate);
 FSYM
 SYM  #pmos
 BB(255,15,275,35)
@@ -494,7 +494,7 @@ LIG(275,19,267,19)
 LIG(275,15,275,19)
 LIG(275,31,267,31)
 LIG(275,35,275,31)
-VLG    pmos pmos(drain,source,gate);
+VLG     pmos pmos(drain,source,gate);
 FSYM
 SYM  #vss
 BB(100,27,110,35)
@@ -561,7 +561,7 @@ LIG(105,-11,97,-11)
 LIG(105,-15,105,-11)
 LIG(105,1,97,1)
 LIG(105,5,105,1)
-VLG    pmos pmos(drain,source,gate);
+VLG     pmos pmos(drain,source,gate);
 FSYM
 SYM  #nmos
 BB(85,5,105,25)
@@ -580,7 +580,7 @@ LIG(105,9,97,9)
 LIG(105,5,105,9)
 LIG(105,21,97,21)
 LIG(105,25,105,21)
-VLG    nmos nmos(drain,source,gate);
+VLG     nmos nmos(drain,source,gate);
 FSYM
 SYM  #button
 BB(81,-49,89,-40)
@@ -647,7 +647,7 @@ LIG(145,-11,137,-11)
 LIG(145,-15,145,-11)
 LIG(145,1,137,1)
 LIG(145,5,145,1)
-VLG    pmos pmos(drain,source,gate);
+VLG     pmos pmos(drain,source,gate);
 FSYM
 SYM  #nmos
 BB(125,5,145,25)
@@ -666,7 +666,7 @@ LIG(145,9,137,9)
 LIG(145,5,145,9)
 LIG(145,21,137,21)
 LIG(145,25,145,21)
-VLG    nmos nmos(drain,source,gate);
+VLG     nmos nmos(drain,source,gate);
 FSYM
 SYM  #vdd
 BB(270,5,280,15)
@@ -729,7 +729,7 @@ LIG(240,69,232,69)
 LIG(240,65,240,69)
 LIG(240,81,232,81)
 LIG(240,85,240,81)
-VLG    nmos nmos(drain,source,gate);
+VLG     nmos nmos(drain,source,gate);
 FSYM
 SYM  #nmos
 BB(220,45,240,65)
@@ -748,7 +748,7 @@ LIG(240,49,232,49)
 LIG(240,45,240,49)
 LIG(240,61,232,61)
 LIG(240,65,240,61)
-VLG    nmos nmos(drain,source,gate);
+VLG     nmos nmos(drain,source,gate);
 FSYM
 SYM  #nmos
 BB(185,65,205,85)
@@ -767,7 +767,7 @@ LIG(205,69,197,69)
 LIG(205,65,205,69)
 LIG(205,81,197,81)
 LIG(205,85,205,81)
-VLG    nmos nmos(drain,source,gate);
+VLG     nmos nmos(drain,source,gate);
 FSYM
 SYM  #nmos
 BB(185,45,205,65)
@@ -786,7 +786,7 @@ LIG(205,49,197,49)
 LIG(205,45,205,49)
 LIG(205,61,197,61)
 LIG(205,65,205,61)
-VLG    nmos nmos(drain,source,gate);
+VLG     nmos nmos(drain,source,gate);
 FSYM
 CNC(255 70)
 CNC(435 75)
@@ -872,4 +872,4 @@ LIG(210,-45,125,-45)
 LIG(365,85,290,85)
 TEXT 211 -29  #Implementation of Full Adder(Sum) by Saif
 TEXT 227 -20  #F = A XOR B XOR C
-FFIG E:\DSCH\MyClassRoom\Lab_3\Full_Adder_Sum.sch
+FFIG D:\VLSI_CMOS_Technology\Lab_3\C4_Full_Adder_Sum.sch

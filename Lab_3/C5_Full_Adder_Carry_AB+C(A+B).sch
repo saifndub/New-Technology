@@ -1,6 +1,6 @@
 DSCH3
-VERSION 25/10/2020 12:16:21 AM
-BB(-4,-25,209,105)
+VERSION 20-Nov-26 8:19:47 PM
+BB(-4,-25,162,105)
 SYM  #pmos
 BB(40,-5,60,15)
 TITLE 55 0  #pmos
@@ -19,7 +19,7 @@ LIG(60,-1,52,-1)
 LIG(60,-5,60,-1)
 LIG(60,11,52,11)
 LIG(60,15,60,11)
-VLG   pmos pmos(drain,source,gate);
+VLG    pmos pmos(drain,source,gate);
 FSYM
 SYM  #pmos
 BB(75,-5,95,15)
@@ -39,7 +39,7 @@ LIG(95,-1,87,-1)
 LIG(95,-5,95,-1)
 LIG(95,11,87,11)
 LIG(95,15,95,11)
-VLG   pmos pmos(drain,source,gate);
+VLG    pmos pmos(drain,source,gate);
 FSYM
 SYM  #pmos
 BB(40,15,60,35)
@@ -59,7 +59,7 @@ LIG(60,19,52,19)
 LIG(60,15,60,19)
 LIG(60,31,52,31)
 LIG(60,35,60,31)
-VLG   pmos pmos(drain,source,gate);
+VLG    pmos pmos(drain,source,gate);
 FSYM
 SYM  #pmos
 BB(40,35,60,55)
@@ -79,7 +79,7 @@ LIG(60,39,52,39)
 LIG(60,35,60,39)
 LIG(60,51,52,51)
 LIG(60,55,60,51)
-VLG   pmos pmos(drain,source,gate);
+VLG    pmos pmos(drain,source,gate);
 FSYM
 SYM  #pmos
 BB(75,15,95,35)
@@ -99,7 +99,7 @@ LIG(95,19,87,19)
 LIG(95,15,95,19)
 LIG(95,31,87,31)
 LIG(95,35,95,31)
-VLG   pmos pmos(drain,source,gate);
+VLG    pmos pmos(drain,source,gate);
 FSYM
 SYM  #button
 BB(-4,-19,5,-11)
@@ -172,7 +172,7 @@ LIG(60,59,52,59)
 LIG(60,55,60,59)
 LIG(60,71,52,71)
 LIG(60,75,60,71)
-VLG   nmos nmos(drain,source,gate);
+VLG    nmos nmos(drain,source,gate);
 FSYM
 SYM  #nmos
 BB(40,75,60,95)
@@ -191,7 +191,7 @@ LIG(60,79,52,79)
 LIG(60,75,60,79)
 LIG(60,91,52,91)
 LIG(60,95,60,91)
-VLG   nmos nmos(drain,source,gate);
+VLG    nmos nmos(drain,source,gate);
 FSYM
 SYM  #nmos
 BB(75,55,95,75)
@@ -210,7 +210,7 @@ LIG(95,59,87,59)
 LIG(95,55,95,59)
 LIG(95,71,87,71)
 LIG(95,75,95,71)
-VLG   nmos nmos(drain,source,gate);
+VLG    nmos nmos(drain,source,gate);
 FSYM
 SYM  #nmos
 BB(75,75,95,95)
@@ -229,7 +229,7 @@ LIG(95,79,87,79)
 LIG(95,75,95,79)
 LIG(95,91,87,91)
 LIG(95,95,95,91)
-VLG   nmos nmos(drain,source,gate);
+VLG    nmos nmos(drain,source,gate);
 FSYM
 SYM  #nmos
 BB(110,75,130,95)
@@ -248,7 +248,7 @@ LIG(130,79,122,79)
 LIG(130,75,130,79)
 LIG(130,91,122,91)
 LIG(130,95,130,91)
-VLG   nmos nmos(drain,source,gate);
+VLG    nmos nmos(drain,source,gate);
 FSYM
 SYM  #vss
 BB(125,97,135,105)
@@ -348,7 +348,7 @@ LIG(130,29,122,29)
 LIG(130,25,130,29)
 LIG(130,41,122,41)
 LIG(130,45,130,41)
-VLG   nmos nmos(drain,source,gate);
+VLG    nmos nmos(drain,source,gate);
 FSYM
 SYM  #pmos
 BB(110,5,130,25)
@@ -368,7 +368,7 @@ LIG(130,9,122,9)
 LIG(130,5,130,9)
 LIG(130,21,122,21)
 LIG(130,25,130,21)
-VLG   pmos pmos(drain,source,gate);
+VLG    pmos pmos(drain,source,gate);
 FSYM
 CNC(15 5)
 CNC(15 25)
@@ -403,6 +403,6 @@ LIG(40,85,40,100)
 LIG(110,35,95,35)
 LIG(110,15,110,35)
 LIG(130,25,145,25)
-TEXT 156 -2  #Implementation of Full Adder(Carry) by Saif
-TEXT 169 3  #F =  AB+C(A+B)
-FFIG E:\DSCH\MyClassRoom\Lab_3\Full_Adder_Carry_AB+C(A+B).sch
+TEXT 105 65  #Implementation of Full Adder(Carry) by Saif
+TEXT 122 59  #F =  AB+C(A+B)
+FFIG D:\VLSI_CMOS_Technology\Lab_3\C5_Full_Adder_Carry_AB+C(A+B).sch

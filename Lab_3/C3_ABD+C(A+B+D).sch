@@ -509,4 +509,4 @@ LIG(325,150,345,150)
 LIG(305,160,305,140)
 TEXT 314 99  #Implementation of Function by Saif
 TEXT 320 107  #Y = ABD + C (A+B+D)
-FFIG E:\DSCH\MyClassRoom\Lab_3\ABD+C(A+B+D).sch
+FFIG E:\DSCH\MyClassRoom\Lab_3\C3_ABD+C(A+B+D).sch
