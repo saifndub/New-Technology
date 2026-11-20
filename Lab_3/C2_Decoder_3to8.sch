@@ -1,6 +1,6 @@
 DSCH3
-VERSION 30/10/2020 04:45:58 PM
-BB(45,-59,1015,254)
+VERSION 20-Nov-26 7:44:56 PM
+BB(45,-59,1015,273)
 SYM  #nmos
 BB(225,175,245,195)
 TITLE 240 180  #nmos
@@ -18,7 +18,7 @@ LIG(245,179,237,179)
 LIG(245,175,245,179)
 LIG(245,191,237,191)
 LIG(245,195,245,191)
-VLG         nmos nmos(drain,source,gate);
+VLG          nmos nmos(drain,source,gate);
 FSYM
 SYM  #button
 BB(571,0,579,9)
@@ -97,7 +97,7 @@ LIG(84,10,84,2)
 LIG(80,10,84,10)
 LIG(96,10,96,2)
 LIG(100,10,96,10)
-VLG           nmos nmos(drain,source,gate);
+VLG            nmos nmos(drain,source,gate);
 FSYM
 SYM  #pmos
 BB(60,-10,80,10)
@@ -117,7 +117,7 @@ LIG(64,10,64,2)
 LIG(60,10,64,10)
 LIG(76,10,76,2)
 LIG(80,10,76,10)
-VLG           pmos pmos(drain,source,gate);
+VLG            pmos pmos(drain,source,gate);
 FSYM
 SYM  #button
 BB(506,1,514,10)
@@ -185,7 +185,7 @@ LIG(64,90,64,82)
 LIG(60,90,64,90)
 LIG(76,90,76,82)
 LIG(80,90,76,90)
-VLG           pmos pmos(drain,source,gate);
+VLG            pmos pmos(drain,source,gate);
 FSYM
 SYM  #nmos
 BB(80,70,100,90)
@@ -204,7 +204,7 @@ LIG(84,90,84,82)
 LIG(80,90,84,90)
 LIG(96,90,96,82)
 LIG(100,90,96,90)
-VLG           nmos nmos(drain,source,gate);
+VLG            nmos nmos(drain,source,gate);
 FSYM
 SYM  #nmos
 BB(80,30,100,50)
@@ -223,7 +223,7 @@ LIG(84,50,84,42)
 LIG(80,50,84,50)
 LIG(96,50,96,42)
 LIG(100,50,96,50)
-VLG           nmos nmos(drain,source,gate);
+VLG            nmos nmos(drain,source,gate);
 FSYM
 SYM  #pmos
 BB(60,30,80,50)
@@ -243,7 +243,7 @@ LIG(64,50,64,42)
 LIG(60,50,64,50)
 LIG(76,50,76,42)
 LIG(80,50,76,50)
-VLG           pmos pmos(drain,source,gate);
+VLG            pmos pmos(drain,source,gate);
 FSYM
 SYM  #button
 BB(541,1,549,10)
@@ -295,7 +295,7 @@ LIG(245,139,237,139)
 LIG(245,135,245,139)
 LIG(245,151,237,151)
 LIG(245,155,245,151)
-VLG       nmos nmos(drain,source,gate);
+VLG        nmos nmos(drain,source,gate);
 FSYM
 SYM  #pmos
 BB(395,115,415,135)
@@ -315,7 +315,7 @@ LIG(415,119,407,119)
 LIG(415,115,415,119)
 LIG(415,131,407,131)
 LIG(415,135,415,131)
-VLG         pmos pmos(drain,source,gate);
+VLG          pmos pmos(drain,source,gate);
 FSYM
 SYM  #nmos
 BB(225,155,245,175)
@@ -334,7 +334,7 @@ LIG(245,159,237,159)
 LIG(245,155,245,159)
 LIG(245,171,237,171)
 LIG(245,175,245,171)
-VLG         nmos nmos(drain,source,gate);
+VLG          nmos nmos(drain,source,gate);
 FSYM
 SYM  #light
 BB(261,248,275,254)
@@ -439,7 +439,7 @@ LIG(244,235,244,227)
 LIG(240,235,244,235)
 LIG(256,235,256,227)
 LIG(260,235,256,235)
-VLG         pmos pmos(drain,source,gate);
+VLG          pmos pmos(drain,source,gate);
 FSYM
 SYM  #pmos
 BB(225,115,245,135)
@@ -459,7 +459,7 @@ LIG(245,119,237,119)
 LIG(245,115,245,119)
 LIG(245,131,237,131)
 LIG(245,135,245,131)
-VLG         pmos pmos(drain,source,gate);
+VLG          pmos pmos(drain,source,gate);
 FSYM
 SYM  #nmos
 BB(260,215,280,235)
@@ -478,7 +478,7 @@ LIG(264,235,264,227)
 LIG(260,235,264,235)
 LIG(276,235,276,227)
 LIG(280,235,276,235)
-VLG         nmos nmos(drain,source,gate);
+VLG          nmos nmos(drain,source,gate);
 FSYM
 SYM  #pmos
 BB(195,115,215,135)
@@ -498,7 +498,7 @@ LIG(215,119,207,119)
 LIG(215,115,215,119)
 LIG(215,131,207,131)
 LIG(215,135,215,131)
-VLG         pmos pmos(drain,source,gate);
+VLG          pmos pmos(drain,source,gate);
 FSYM
 SYM  #vss
 BB(240,197,250,205)
@@ -532,7 +532,7 @@ LIG(825,139,817,139)
 LIG(825,135,825,139)
 LIG(825,151,817,151)
 LIG(825,155,825,151)
-VLG       nmos nmos(drain,source,gate);
+VLG        nmos nmos(drain,source,gate);
 FSYM
 SYM  #nmos
 BB(805,155,825,175)
@@ -551,22 +551,26 @@ LIG(825,159,817,159)
 LIG(825,155,825,159)
 LIG(825,171,817,171)
 LIG(825,175,825,171)
-VLG         nmos nmos(drain,source,gate);
+VLG          nmos nmos(drain,source,gate);
 FSYM
-SYM  #vss
-BB(857,230,865,240)
-TITLE 862 234  #vss
-MODEL 0
-PROP                                                                                                                                    
-REC(855,230,0,0,b)
-VIS 0
-PIN(855,235,0.000,0.000)vss
-LIG(855,235,860,235)
-LIG(860,230,860,240)
-LIG(863,230,860,232)
-LIG(863,232,860,234)
-LIG(863,234,860,236)
-LIG(863,236,860,238)
+SYM  #nmos
+BB(940,175,960,195)
+TITLE 955 180  #nmos
+MODEL 901
+PROP   1.0u 0.12u MN                                                                                                                               
+REC(941,180,19,15,r)
+VIS 2
+PIN(960,195,0.000,0.000)s
+PIN(940,185,0.000,0.000)g
+PIN(960,175,0.030,0.070)d
+LIG(950,185,940,185)
+LIG(950,191,950,179)
+LIG(952,191,952,179)
+LIG(960,179,952,179)
+LIG(960,175,960,179)
+LIG(960,191,952,191)
+LIG(960,195,960,191)
+VLG      nmos nmos(drain,source,gate);
 FSYM
 SYM  #nmos
 BB(940,135,960,155)
@@ -585,7 +589,7 @@ LIG(960,139,952,139)
 LIG(960,135,960,139)
 LIG(960,151,952,151)
 LIG(960,155,960,151)
-VLG     nmos nmos(drain,source,gate);
+VLG      nmos nmos(drain,source,gate);
 FSYM
 SYM  #pmos
 BB(855,115,875,135)
@@ -605,7 +609,7 @@ LIG(875,119,867,119)
 LIG(875,115,875,119)
 LIG(875,131,867,131)
 LIG(875,135,875,131)
-VLG         pmos pmos(drain,source,gate);
+VLG          pmos pmos(drain,source,gate);
 FSYM
 SYM  #vss
 BB(955,197,965,205)
@@ -640,7 +644,7 @@ LIG(940,119,932,119)
 LIG(940,115,940,119)
 LIG(940,131,932,131)
 LIG(940,135,940,131)
-VLG         pmos pmos(drain,source,gate);
+VLG          pmos pmos(drain,source,gate);
 FSYM
 SYM  #pmos
 BB(890,115,910,135)
@@ -660,7 +664,7 @@ LIG(910,119,902,119)
 LIG(910,115,910,119)
 LIG(910,131,902,131)
 LIG(910,135,910,131)
-VLG         pmos pmos(drain,source,gate);
+VLG          pmos pmos(drain,source,gate);
 FSYM
 SYM  #vss
 BB(1007,230,1015,240)
@@ -694,22 +698,22 @@ LIG(989,235,989,227)
 LIG(985,235,989,235)
 LIG(1001,235,1001,227)
 LIG(1005,235,1001,235)
-VLG         nmos nmos(drain,source,gate);
+VLG          nmos nmos(drain,source,gate);
 FSYM
 SYM  #vss
-BB(627,230,635,240)
-TITLE 632 234  #vss
+BB(632,230,640,240)
+TITLE 637 234  #vss
 MODEL 0
 PROP                                                                                                                                    
-REC(625,230,0,0,b)
+REC(630,230,0,0,b)
 VIS 0
-PIN(625,235,0.000,0.000)vss
-LIG(625,235,630,235)
-LIG(630,230,630,240)
-LIG(633,230,630,232)
-LIG(633,232,630,234)
-LIG(633,234,630,236)
-LIG(633,236,630,238)
+PIN(630,235,0.000,0.000)vss
+LIG(630,235,635,235)
+LIG(635,230,635,240)
+LIG(638,230,635,232)
+LIG(638,232,635,234)
+LIG(638,234,635,236)
+LIG(638,236,635,238)
 FSYM
 SYM  #nmos
 BB(110,175,130,195)
@@ -728,7 +732,7 @@ LIG(130,179,122,179)
 LIG(130,175,130,179)
 LIG(130,191,122,191)
 LIG(130,195,130,191)
-VLG         nmos nmos(drain,source,gate);
+VLG          nmos nmos(drain,source,gate);
 FSYM
 SYM  #pmos
 BB(160,115,180,135)
@@ -748,7 +752,7 @@ LIG(180,119,172,119)
 LIG(180,115,180,119)
 LIG(180,131,172,131)
 LIG(180,135,180,131)
-VLG         pmos pmos(drain,source,gate);
+VLG          pmos pmos(drain,source,gate);
 FSYM
 SYM  #vss
 BB(125,197,135,205)
@@ -783,7 +787,7 @@ LIG(100,119,92,119)
 LIG(100,115,100,119)
 LIG(100,131,92,131)
 LIG(100,135,100,131)
-VLG         pmos pmos(drain,source,gate);
+VLG          pmos pmos(drain,source,gate);
 FSYM
 SYM  #nmos
 BB(145,215,165,235)
@@ -802,7 +806,7 @@ LIG(149,235,149,227)
 LIG(145,235,149,235)
 LIG(161,235,161,227)
 LIG(165,235,161,235)
-VLG         nmos nmos(drain,source,gate);
+VLG          nmos nmos(drain,source,gate);
 FSYM
 SYM  #pmos
 BB(110,115,130,135)
@@ -822,7 +826,7 @@ LIG(130,119,122,119)
 LIG(130,115,130,119)
 LIG(130,131,122,131)
 LIG(130,135,130,131)
-VLG         pmos pmos(drain,source,gate);
+VLG          pmos pmos(drain,source,gate);
 FSYM
 SYM  #pmos
 BB(125,215,145,235)
@@ -842,7 +846,7 @@ LIG(129,235,129,227)
 LIG(125,235,129,235)
 LIG(141,235,141,227)
 LIG(145,235,141,235)
-VLG         pmos pmos(drain,source,gate);
+VLG          pmos pmos(drain,source,gate);
 FSYM
 SYM  #vdd
 BB(115,230,125,240)
@@ -875,12 +879,12 @@ LIG(173,236,170,238)
 FSYM
 SYM  #light
 BB(146,248,160,254)
-TITLE 146 250  #Y1
+TITLE 146 250  #Y0
 MODEL 49
 PROP                                                                                                                                    
 REC(155,249,4,4,r)
 VIS 1
-PIN(145,250,0.000,0.000)Y1
+PIN(145,250,0.000,0.000)Y0
 LIG(154,253,159,253)
 LIG(159,253,160,252)
 LIG(159,249,154,249)
@@ -913,7 +917,7 @@ LIG(130,159,122,159)
 LIG(130,155,130,159)
 LIG(130,171,122,171)
 LIG(130,175,130,171)
-VLG         nmos nmos(drain,source,gate);
+VLG          nmos nmos(drain,source,gate);
 FSYM
 SYM  #pmos
 BB(45,115,65,135)
@@ -933,7 +937,7 @@ LIG(65,119,57,119)
 LIG(65,115,65,119)
 LIG(65,131,57,131)
 LIG(65,135,65,131)
-VLG         pmos pmos(drain,source,gate);
+VLG          pmos pmos(drain,source,gate);
 FSYM
 SYM  #nmos
 BB(110,135,130,155)
@@ -952,7 +956,7 @@ LIG(130,139,122,139)
 LIG(130,135,130,139)
 LIG(130,151,122,151)
 LIG(130,155,130,151)
-VLG       nmos nmos(drain,source,gate);
+VLG        nmos nmos(drain,source,gate);
 FSYM
 SYM  #pmos
 BB(460,115,480,135)
@@ -972,7 +976,7 @@ LIG(480,119,472,119)
 LIG(480,115,480,119)
 LIG(480,131,472,131)
 LIG(480,135,480,131)
-VLG         pmos pmos(drain,source,gate);
+VLG          pmos pmos(drain,source,gate);
 FSYM
 SYM  #vss
 BB(355,197,365,205)
@@ -1007,7 +1011,7 @@ LIG(330,119,322,119)
 LIG(330,115,330,119)
 LIG(330,131,322,131)
 LIG(330,135,330,131)
-VLG         pmos pmos(drain,source,gate);
+VLG          pmos pmos(drain,source,gate);
 FSYM
 SYM  #nmos
 BB(375,215,395,235)
@@ -1026,7 +1030,7 @@ LIG(379,235,379,227)
 LIG(375,235,379,235)
 LIG(391,235,391,227)
 LIG(395,235,391,235)
-VLG         nmos nmos(drain,source,gate);
+VLG          nmos nmos(drain,source,gate);
 FSYM
 SYM  #pmos
 BB(275,115,295,135)
@@ -1046,7 +1050,7 @@ LIG(295,119,287,119)
 LIG(295,115,295,119)
 LIG(295,131,287,131)
 LIG(295,135,295,131)
-VLG         pmos pmos(drain,source,gate);
+VLG          pmos pmos(drain,source,gate);
 FSYM
 SYM  #pmos
 BB(340,115,360,135)
@@ -1066,7 +1070,7 @@ LIG(360,119,352,119)
 LIG(360,115,360,119)
 LIG(360,131,352,131)
 LIG(360,135,360,131)
-VLG         pmos pmos(drain,source,gate);
+VLG          pmos pmos(drain,source,gate);
 FSYM
 SYM  #pmos
 BB(355,215,375,235)
@@ -1086,7 +1090,7 @@ LIG(359,235,359,227)
 LIG(355,235,359,235)
 LIG(371,235,371,227)
 LIG(375,235,371,235)
-VLG         pmos pmos(drain,source,gate);
+VLG          pmos pmos(drain,source,gate);
 FSYM
 SYM  #vdd
 BB(345,230,355,240)
@@ -1120,7 +1124,7 @@ LIG(450,119,442,119)
 LIG(450,115,450,119)
 LIG(450,131,442,131)
 LIG(450,135,450,131)
-VLG         pmos pmos(drain,source,gate);
+VLG          pmos pmos(drain,source,gate);
 FSYM
 SYM  #light
 BB(376,248,390,254)
@@ -1162,7 +1166,7 @@ LIG(360,159,352,159)
 LIG(360,155,360,159)
 LIG(360,171,352,171)
 LIG(360,175,360,171)
-VLG         nmos nmos(drain,source,gate);
+VLG          nmos nmos(drain,source,gate);
 FSYM
 SYM  #nmos
 BB(340,135,360,155)
@@ -1181,7 +1185,7 @@ LIG(360,139,352,139)
 LIG(360,135,360,139)
 LIG(360,151,352,151)
 LIG(360,155,360,151)
-VLG       nmos nmos(drain,source,gate);
+VLG        nmos nmos(drain,source,gate);
 FSYM
 SYM  #pmos
 BB(965,215,985,235)
@@ -1201,7 +1205,7 @@ LIG(969,235,969,227)
 LIG(965,235,969,235)
 LIG(981,235,981,227)
 LIG(985,235,981,235)
-VLG         pmos pmos(drain,source,gate);
+VLG          pmos pmos(drain,source,gate);
 FSYM
 SYM  #vss
 BB(282,230,290,240)
@@ -1227,7 +1231,7 @@ REC(341,180,19,15,r)
 VIS 2
 PIN(360,195,0.000,0.000)s
 PIN(340,185,0.000,0.000)g
-PIN(360,175,0.030,0.070)d
+PIN(360,175,0.030,0.000)d
 LIG(350,185,340,185)
 LIG(350,191,350,179)
 LIG(352,191,352,179)
@@ -1235,7 +1239,7 @@ LIG(360,179,352,179)
 LIG(360,175,360,179)
 LIG(360,191,352,191)
 LIG(360,195,360,191)
-VLG         nmos nmos(drain,source,gate);
+VLG          nmos nmos(drain,source,gate);
 FSYM
 SYM  #nmos
 BB(460,175,480,195)
@@ -1254,7 +1258,7 @@ LIG(480,179,472,179)
 LIG(480,175,480,179)
 LIG(480,191,472,191)
 LIG(480,195,480,191)
-VLG         nmos nmos(drain,source,gate);
+VLG          nmos nmos(drain,source,gate);
 FSYM
 SYM  #vss
 BB(397,230,405,240)
@@ -1303,7 +1307,7 @@ LIG(480,139,472,139)
 LIG(480,135,480,139)
 LIG(480,151,472,151)
 LIG(480,155,480,151)
-VLG       nmos nmos(drain,source,gate);
+VLG        nmos nmos(drain,source,gate);
 FSYM
 SYM  #nmos
 BB(460,155,480,175)
@@ -1322,16 +1326,16 @@ LIG(480,159,472,159)
 LIG(480,155,480,159)
 LIG(480,171,472,171)
 LIG(480,175,480,171)
-VLG         nmos nmos(drain,source,gate);
+VLG          nmos nmos(drain,source,gate);
 FSYM
 SYM  #light
 BB(496,248,510,254)
-TITLE 496 250  #light1
+TITLE 496 250  #Y3
 MODEL 49
 PROP                                                                                                                                    
 REC(505,249,4,4,r)
 VIS 1
-PIN(495,250,0.000,0.000)out1
+PIN(495,250,0.000,0.000)Y3
 LIG(504,253,509,253)
 LIG(509,253,510,252)
 LIG(509,249,504,249)
@@ -1364,7 +1368,7 @@ LIG(499,235,499,227)
 LIG(495,235,499,235)
 LIG(511,235,511,227)
 LIG(515,235,511,235)
-VLG         nmos nmos(drain,source,gate);
+VLG          nmos nmos(drain,source,gate);
 FSYM
 SYM  #vdd
 BB(465,230,475,240)
@@ -1398,22 +1402,22 @@ LIG(479,235,479,227)
 LIG(475,235,479,235)
 LIG(491,235,491,227)
 LIG(495,235,491,235)
-VLG         pmos pmos(drain,source,gate);
+VLG          pmos pmos(drain,source,gate);
 FSYM
 SYM  #vss
-BB(512,230,520,240)
-TITLE 517 234  #vss
+BB(517,230,525,240)
+TITLE 522 234  #vss
 MODEL 0
 PROP                                                                                                                                    
-REC(510,230,0,0,b)
+REC(515,230,0,0,b)
 VIS 0
-PIN(510,235,0.000,0.000)vss
-LIG(510,235,515,235)
-LIG(515,230,515,240)
-LIG(518,230,515,232)
-LIG(518,232,515,234)
-LIG(518,234,515,236)
-LIG(518,236,515,238)
+PIN(515,235,0.000,0.000)vss
+LIG(515,235,520,235)
+LIG(520,230,520,240)
+LIG(523,230,520,232)
+LIG(523,232,520,234)
+LIG(523,234,520,236)
+LIG(523,236,520,238)
 FSYM
 SYM  #vss
 BB(590,197,600,205)
@@ -1448,7 +1452,7 @@ LIG(565,119,557,119)
 LIG(565,115,565,119)
 LIG(565,131,557,131)
 LIG(565,135,565,131)
-VLG         pmos pmos(drain,source,gate);
+VLG          pmos pmos(drain,source,gate);
 FSYM
 SYM  #nmos
 BB(610,215,630,235)
@@ -1467,7 +1471,7 @@ LIG(614,235,614,227)
 LIG(610,235,614,235)
 LIG(626,235,626,227)
 LIG(630,235,626,235)
-VLG         nmos nmos(drain,source,gate);
+VLG          nmos nmos(drain,source,gate);
 FSYM
 SYM  #pmos
 BB(510,115,530,135)
@@ -1487,7 +1491,7 @@ LIG(530,119,522,119)
 LIG(530,115,530,119)
 LIG(530,131,522,131)
 LIG(530,135,530,131)
-VLG         pmos pmos(drain,source,gate);
+VLG          pmos pmos(drain,source,gate);
 FSYM
 SYM  #pmos
 BB(575,115,595,135)
@@ -1507,7 +1511,7 @@ LIG(595,119,587,119)
 LIG(595,115,595,119)
 LIG(595,131,587,131)
 LIG(595,135,595,131)
-VLG         pmos pmos(drain,source,gate);
+VLG          pmos pmos(drain,source,gate);
 FSYM
 SYM  #pmos
 BB(590,215,610,235)
@@ -1527,7 +1531,7 @@ LIG(594,235,594,227)
 LIG(590,235,594,235)
 LIG(606,235,606,227)
 LIG(610,235,606,235)
-VLG         pmos pmos(drain,source,gate);
+VLG          pmos pmos(drain,source,gate);
 FSYM
 SYM  #vdd
 BB(580,230,590,240)
@@ -1559,12 +1563,12 @@ LIG(960,240,960,235)
 FSYM
 SYM  #light
 BB(611,248,625,254)
-TITLE 611 250  #light1
+TITLE 611 250  #Y4
 MODEL 49
 PROP                                                                                                                                    
 REC(620,249,4,4,r)
 VIS 1
-PIN(610,250,0.000,0.000)out1
+PIN(610,250,0.000,0.000)Y4
 LIG(619,253,624,253)
 LIG(624,253,625,252)
 LIG(624,249,619,249)
@@ -1597,7 +1601,7 @@ LIG(595,159,587,159)
 LIG(595,155,595,159)
 LIG(595,171,587,171)
 LIG(595,175,595,171)
-VLG         nmos nmos(drain,source,gate);
+VLG          nmos nmos(drain,source,gate);
 FSYM
 SYM  #nmos
 BB(575,135,595,155)
@@ -1616,7 +1620,7 @@ LIG(595,139,587,139)
 LIG(595,135,595,139)
 LIG(595,151,587,151)
 LIG(595,155,595,151)
-VLG       nmos nmos(drain,source,gate);
+VLG        nmos nmos(drain,source,gate);
 FSYM
 SYM  #nmos
 BB(575,175,595,195)
@@ -1627,7 +1631,7 @@ REC(576,180,19,15,r)
 VIS 2
 PIN(595,195,0.000,0.000)s
 PIN(575,185,0.000,0.000)g
-PIN(595,175,0.030,0.070)d
+PIN(595,175,0.030,0.000)d
 LIG(585,185,575,185)
 LIG(585,191,585,179)
 LIG(587,191,587,179)
@@ -1635,7 +1639,7 @@ LIG(595,179,587,179)
 LIG(595,175,595,179)
 LIG(595,191,587,191)
 LIG(595,195,595,191)
-VLG         nmos nmos(drain,source,gate);
+VLG          nmos nmos(drain,source,gate);
 FSYM
 SYM  #nmos
 BB(690,175,710,195)
@@ -1654,7 +1658,7 @@ LIG(710,179,702,179)
 LIG(710,175,710,179)
 LIG(710,191,702,191)
 LIG(710,195,710,191)
-VLG         nmos nmos(drain,source,gate);
+VLG          nmos nmos(drain,source,gate);
 FSYM
 SYM  #nmos
 BB(690,135,710,155)
@@ -1673,7 +1677,7 @@ LIG(710,139,702,139)
 LIG(710,135,710,139)
 LIG(710,151,702,151)
 LIG(710,155,710,151)
-VLG       nmos nmos(drain,source,gate);
+VLG        nmos nmos(drain,source,gate);
 FSYM
 SYM  #nmos
 BB(690,155,710,175)
@@ -1692,16 +1696,16 @@ LIG(710,159,702,159)
 LIG(710,155,710,159)
 LIG(710,171,702,171)
 LIG(710,175,710,171)
-VLG         nmos nmos(drain,source,gate);
+VLG          nmos nmos(drain,source,gate);
 FSYM
 SYM  #light
 BB(726,248,740,254)
-TITLE 726 250  #light1
+TITLE 726 250  #Y5
 MODEL 49
 PROP                                                                                                                                    
 REC(735,249,4,4,r)
 VIS 1
-PIN(725,250,0.000,0.000)out1
+PIN(725,250,0.000,0.000)Y5
 LIG(734,253,739,253)
 LIG(739,253,740,252)
 LIG(739,249,734,249)
@@ -1764,7 +1768,7 @@ LIG(709,235,709,227)
 LIG(705,235,709,235)
 LIG(721,235,721,227)
 LIG(725,235,721,235)
-VLG         pmos pmos(drain,source,gate);
+VLG          pmos pmos(drain,source,gate);
 FSYM
 SYM  #pmos
 BB(690,115,710,135)
@@ -1784,7 +1788,7 @@ LIG(710,119,702,119)
 LIG(710,115,710,119)
 LIG(710,131,702,131)
 LIG(710,135,710,131)
-VLG         pmos pmos(drain,source,gate);
+VLG          pmos pmos(drain,source,gate);
 FSYM
 SYM  #pmos
 BB(625,115,645,135)
@@ -1804,7 +1808,7 @@ LIG(645,119,637,119)
 LIG(645,115,645,119)
 LIG(645,131,637,131)
 LIG(645,135,645,131)
-VLG         pmos pmos(drain,source,gate);
+VLG          pmos pmos(drain,source,gate);
 FSYM
 SYM  #nmos
 BB(725,215,745,235)
@@ -1823,7 +1827,7 @@ LIG(729,235,729,227)
 LIG(725,235,729,235)
 LIG(741,235,741,227)
 LIG(745,235,741,235)
-VLG         nmos nmos(drain,source,gate);
+VLG          nmos nmos(drain,source,gate);
 FSYM
 SYM  #pmos
 BB(660,115,680,135)
@@ -1843,7 +1847,7 @@ LIG(680,119,672,119)
 LIG(680,115,680,119)
 LIG(680,131,672,131)
 LIG(680,135,680,131)
-VLG         pmos pmos(drain,source,gate);
+VLG          pmos pmos(drain,source,gate);
 FSYM
 SYM  #vss
 BB(705,197,715,205)
@@ -1862,12 +1866,12 @@ LIG(711,203,713,200)
 FSYM
 SYM  #light
 BB(841,248,855,254)
-TITLE 841 250  #light1
+TITLE 841 250  #Y6
 MODEL 49
 PROP                                                                                                                                    
 REC(850,249,4,4,r)
 VIS 1
-PIN(840,250,0.000,0.000)out1
+PIN(840,250,0.000,0.000)Y6
 LIG(849,253,854,253)
 LIG(854,253,855,252)
 LIG(854,249,849,249)
@@ -1930,7 +1934,7 @@ LIG(824,235,824,227)
 LIG(820,235,824,235)
 LIG(836,235,836,227)
 LIG(840,235,836,235)
-VLG         pmos pmos(drain,source,gate);
+VLG          pmos pmos(drain,source,gate);
 FSYM
 SYM  #nmos
 BB(840,215,860,235)
@@ -1949,7 +1953,7 @@ LIG(844,235,844,227)
 LIG(840,235,844,235)
 LIG(856,235,856,227)
 LIG(860,235,856,235)
-VLG         nmos nmos(drain,source,gate);
+VLG          nmos nmos(drain,source,gate);
 FSYM
 SYM  #pmos
 BB(775,115,795,135)
@@ -1969,7 +1973,7 @@ LIG(795,119,787,119)
 LIG(795,115,795,119)
 LIG(795,131,787,131)
 LIG(795,135,795,131)
-VLG         pmos pmos(drain,source,gate);
+VLG          pmos pmos(drain,source,gate);
 FSYM
 SYM  #pmos
 BB(805,115,825,135)
@@ -1989,7 +1993,7 @@ LIG(825,119,817,119)
 LIG(825,115,825,119)
 LIG(825,131,817,131)
 LIG(825,135,825,131)
-VLG         pmos pmos(drain,source,gate);
+VLG          pmos pmos(drain,source,gate);
 FSYM
 SYM  #vss
 BB(820,197,830,205)
@@ -2024,7 +2028,7 @@ LIG(760,119,752,119)
 LIG(760,115,760,119)
 LIG(760,131,752,131)
 LIG(760,135,760,131)
-VLG         pmos pmos(drain,source,gate);
+VLG          pmos pmos(drain,source,gate);
 FSYM
 SYM  #vss
 BB(862,230,870,240)
@@ -2042,19 +2046,19 @@ LIG(868,234,865,236)
 LIG(868,236,865,238)
 FSYM
 SYM  #vss
-BB(742,230,750,240)
-TITLE 747 234  #vss
+BB(747,230,755,240)
+TITLE 752 234  #vss
 MODEL 0
 PROP                                                                                                                                    
-REC(740,230,0,0,b)
+REC(745,230,0,0,b)
 VIS 0
-PIN(740,235,0.000,0.000)vss
-LIG(740,235,745,235)
-LIG(745,230,745,240)
-LIG(748,230,745,232)
-LIG(748,232,745,234)
-LIG(748,234,745,236)
-LIG(748,236,745,238)
+PIN(745,235,0.000,0.000)vss
+LIG(745,235,750,235)
+LIG(750,230,750,240)
+LIG(753,230,750,232)
+LIG(753,232,750,234)
+LIG(753,234,750,236)
+LIG(753,236,750,238)
 FSYM
 SYM  #nmos
 BB(805,175,825,195)
@@ -2065,7 +2069,7 @@ REC(806,180,19,15,r)
 VIS 2
 PIN(825,195,0.000,0.000)s
 PIN(805,185,0.000,0.000)g
-PIN(825,175,0.030,0.070)d
+PIN(825,175,0.030,0.000)d
 LIG(815,185,805,185)
 LIG(815,191,815,179)
 LIG(817,191,817,179)
@@ -2073,7 +2077,7 @@ LIG(825,179,817,179)
 LIG(825,175,825,179)
 LIG(825,191,817,191)
 LIG(825,195,825,191)
-VLG         nmos nmos(drain,source,gate);
+VLG          nmos nmos(drain,source,gate);
 FSYM
 SYM  #light
 BB(986,248,1000,254)
@@ -2115,26 +2119,7 @@ LIG(960,159,952,159)
 LIG(960,155,960,159)
 LIG(960,171,952,171)
 LIG(960,175,960,171)
-VLG     nmos nmos(drain,source,gate);
-FSYM
-SYM  #nmos
-BB(940,175,960,195)
-TITLE 955 180  #nmos
-MODEL 901
-PROP   1.0u 0.12u MN                                                                                                                               
-REC(941,180,19,15,r)
-VIS 2
-PIN(960,195,0.000,0.000)s
-PIN(940,185,0.000,0.000)g
-PIN(960,175,0.030,0.070)d
-LIG(950,185,940,185)
-LIG(950,191,950,179)
-LIG(952,191,952,179)
-LIG(960,179,952,179)
-LIG(960,175,960,179)
-LIG(960,191,952,191)
-LIG(960,195,960,191)
-VLG     nmos nmos(drain,source,gate);
+VLG      nmos nmos(drain,source,gate);
 FSYM
 CNC(890 30)
 CNC(545 30)
@@ -2289,11 +2274,12 @@ LIG(940,165,935,165)
 LIG(935,165,935,155)
 LIG(935,155,890,155)
 TEXT 260 3  #Implementation of 3-8 Decoder by Saif
-TEXT 219 198  #Y0 = A'B'
-TEXT 799 198  #Y0 = A'B'
-TEXT 104 198  #Y0 = A'B'
-TEXT 334 198  #Y0 = A'B'
-TEXT 454 198  #Y0 = A'B'
-TEXT 569 198  #Y0 = A'B'
-TEXT 684 198  #Y0 = A'B'
-FFIG E:\DSCH\MyClassRoom\Lab_3\3to8_Decoder.sch
+TEXT 465 262  #Y3 = A'BC
+TEXT 115 262  #Y0 = A'B'C'
+TEXT 347 263  #Y2 = A'BC'
+TEXT 810 262  #Y6 = ABC'
+TEXT 700 262  #Y5 = AB'C
+TEXT 580 262  #Y4 = AB'C'
+TEXT 945 262  #Y7 = ABC
+TEXT 224 263  #Y1 = A'B'C
+FFIG D:\VLSI_CMOS_Technology\Lab_3\C2_Decoder_3to8.sch
