@@ -177,4 +177,4 @@ LIG(50,45,20,45)
 LIG(20,5,20,45)
 TEXT -14 24  #A
 TEXT -13 44  #B
-FFIG D:\VLSI_CMOS_Technology\Lab_1\L2_Two_InputNand.sch
+FFIG D:\VLSI_CMOS_Technology\Lab_1\C2_Two_InputNand.sch

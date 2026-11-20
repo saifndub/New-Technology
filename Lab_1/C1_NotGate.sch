@@ -113,4 +113,4 @@ FSYM
 LIG(35,15,50,15)
 LIG(70,25,95,25)
 LIG(50,15,50,35)
-FFIG D:\VLSI_CMOS_Technology\Lab_1\L1_NotGate.sch
+FFIG D:\VLSI_CMOS_Technology\Lab_1\C1_NotGate.sch

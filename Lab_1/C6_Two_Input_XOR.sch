@@ -499,4 +499,4 @@ LIG(185,75,185,70)
 LIG(255,25,255,45)
 LIG(255,45,260,45)
 LIG(275,35,295,35)
-FFIG E:\DSCH\MyClassRoom\1st Lab\L6_Two_Input_XOR.sch
+FFIG E:\DSCH\MyClassRoom\Lab_1\C6_Two_Input_XOR.sch

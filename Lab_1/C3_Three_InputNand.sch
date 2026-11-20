@@ -239,4 +239,4 @@ LIG(10,0,10,60)
 TEXT -17 20  #A
 TEXT -18 40  #B
 TEXT -18 60  #C
-FFIG E:\DSCH\MyClassRoom\1st Lab\L3_Three_InputNand.sch
+FFIG E:\DSCH\MyClassRoom\Lab_1\C3_Three_InputNand.sch

@@ -246,4 +246,4 @@ LIG(65,10,80,10)
 LIG(145,10,145,20)
 LIG(100,20,145,20)
 LIG(145,20,145,30)
-FFIG E:\DSCH\MyClassRoom\1st Lab\L4_Two_Input_And.sch
+FFIG E:\DSCH\MyClassRoom\Lab_1\C4_Two_Input_And.sch
